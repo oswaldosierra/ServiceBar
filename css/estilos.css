@@ -1,0 +1,51 @@
+.icono{
+    background-image: url(../img/icono2.png);
+    width: 250px;
+    height: 80px;
+    z-index: 20;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+.navegacion{
+    width: 100%;
+    display: flex;
+    z-index: 10;
+    justify-content: space-around;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+}
+.menu{
+    display: block;
+    margin-top: 15px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.menu ul > li > a{
+    text-decoration: none;
+    padding: 15px 50px;
+    text-align: center;
+    color: white;
+    margin: 0 10px;
+    background-color: rgba(46, 88, 100, 0.5);
+    border-radius: 10px;
+}
+.menu ul > li > a:hover{
+    background-color: turquoise;
+}
+.t-ciudad{
+    text-align: center;
+    margin: 85vh auto;
+    background-color: rgba(0,0,0,0.5);
+    width: 400px;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    border-radius: 15px;
+}
