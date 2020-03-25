@@ -1,3 +1,6 @@
+*{
+    font-family: 'Lora', serif;
+}
 .icono{
     background-image: url(../img/icono2.png);
     width: 250px;
@@ -30,11 +33,10 @@
     text-align: center;
     color: white;
     margin: 0 10px;
-    background-color: rgba(46, 88, 100, 0.5);
     border-radius: 10px;
 }
 .menu ul > li > a:hover{
-    background-color: turquoise;
+    background-color: rgba(0,0,0,0.5)
 }
 .t-ciudad{
     text-align: center;
@@ -48,4 +50,29 @@
     color: white;
     font-size: 50px;
     border-radius: 15px;
+}
+.cantidades{
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+}
+.centrar{
+    display: block;
+    text-align: center;
+    margin: auto;
+    border: solid rgb(28, 232, 247) 5px;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cantidades1{
+    display: block;
+}
+.titulo-cantidades{
+    text-align: center;
+    margin-top: 80px;
 }
